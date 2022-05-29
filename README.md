@@ -95,61 +95,7 @@ ReactMapGl component props that take from MAPBOX are: mapboxApiAccessToken and m
 
 Access key and mapStyle can be found once a MapBox account has been created where the access token will be visible at the bottom of the page. Mapstyle token can be found on Mapbox under Tools & resources, where Design in mapbox studio is selected to select a visual design theme and a code is then generated.
 
-### Installation
 
-1. Clone the repo and change to that folder
-
-    ```sh
-    git clone https://github.com/trongbui1105/MERN-Travel-Map.git
-    ```
-
-2. Install packages for the backend
-
-   - Move to backend folder
-
-    ```sh
-    cd backend
-
-    yarn install
-    ```
-
-   - Update the MongoDB URL (You can see it in [.env.example](https://github.com/trongbui1105/MERN-Travel-Map/blob/master/backend/.env.example))
-
-    ```sh
-        MONGO_URL = <ADD_YOUR_MONGODB_URL>
-    ```
-
-   - Run the server
-
-    ```sh
-
-    yarn start
-    ```
-
-3. Install packages for the frontend
-
-   - Move to frontend folder
-
-    ```sh
-    cd frontend
-
-    yarn install
-    ```
-
-   - Get a free API Key from Mapbox at [their website](https://www.mapbox.com/).
-
-   - Update the API in "./frontend/.env" (You can see it in [.env.example](https://github.com/trongbui1105/MERN-Travel-Map/blob/master/frontend/.env.example))
-
-    ```sh
-    REACT_APP_MAPBOX = <YOUR_MAPBOX_API_KEY>
-    ```
-
-   - Run the frontend server
-    ```sh
-    yarn start
-    ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
